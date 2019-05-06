@@ -1,0 +1,180 @@
+.App {
+  font-family: Avenir, sans-serif;
+}
+
+.name {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.experience {
+  background-image: url('glacier.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  opacity: 8;
+  z-index: 2;
+}
+/* <div className="experience">
+  <div className="caption">
+    <span className="border"></span>
+  </div>
+</div>
+</div> */
+
+.info{
+  padding: 30px 30px 20px 70px;
+  text-align: center;
+  display: block;
+  height: auto;
+}
+
+.profile {
+  display: inline-block;
+  width: 200px;
+  margin-right: 80px;
+  float: left;
+}
+.quote {
+  text-align: center;
+  font-size: 28px;
+  padding-left: 100px;
+  margin-top: 80px;
+}
+.info::after {
+  content: " ";
+  clear: both;
+  display: block;
+}
+.quoteName {
+  float:right;
+}
+
+.riivos, .riivosIntern {
+  padding-left: 10%;
+  padding-right: 10%;
+  font-weight: 400px;
+  min-height: 400px;
+  position: relative;
+}
+
+.picture {
+  width: 70%;
+  height: 70%;
+}
+
+.riivosContent {
+  font-size: 16px;
+  text-align: start;
+  display: block;
+}
+
+.riivosPic {
+  width: 20%;
+  float: left;
+}
+
+.riivosTitle {
+  text-align: start;
+}
+
+.riivosDescription {
+  float: left;
+  font-size: 32px;
+  padding-top: 80px;
+  width: 80%;
+}
+
+.name {
+  font-size: 2em;
+  line-height: normal;
+  font-family: Avenir, sans-serif;
+}
+
+.middleBar {
+  left: 0;
+  text-align: start;
+  padding: 0px 20px 5px 70px;
+  font-size: 2em;
+  border-bottom: 5px solid black;
+}
+
+.NavBar {
+    color: #fff;
+    position: fixed;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    z-index: 10;
+    margin-top: 5px;
+}
+
+.Resume {
+  padding: 40px 40px 40px 25px;
+  opacity: 1;
+}
+
+.App-header {
+  background-image: url('start.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  opacity: 9;
+  z-index: 1;
+}
+
+.App-headergif {
+  background-image: url('background1.gif');
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  opacity: 9;
+  z-index: 2;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
