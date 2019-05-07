@@ -32,7 +32,7 @@ import './App.css';
 function handleScroll() {
   console.log(document.getElementById('header').className);
   if (!document.getElementById('header').className.includes('gif')) {
-    document.getElementById('header').classList.add('App-headergif');
+    //document.getElementById('header').classList.add('App-headergif');
   }
   console.log(document.getElementById('header').className);
 
@@ -63,7 +63,7 @@ function App() {
         <div className="profile">
           <img src={profile} alt="profile" />
         </div>
-        <p className="quote">'Try never to be the smartest person in the room. And if you are, I suggest you invite smarter people…or find a different room.' -Micheal Dell</p>
+        <p className="quote">'Try never to be the smartest person in the room. And if you are, I suggest you invite smarter people…or find a different room.' -Michael Dell</p>
     </div>
       <div className="middleBar">
         <a className="work">Experience</a>
@@ -83,7 +83,7 @@ function App() {
             June - Sept 2016, June - Sept 2017 (Intern)
             <li>Added various UI and UX improvements to our SaaS platform</li>
             <li>Updated and improved code coverage by adding significant unit tests</li>
-            <li>Learned about the inner workins of a startup and how all the various pieces tie together</li>
+            <li>Learned about the inner workings of a startup and how all the various pieces tie together</li>
           </div>
         </div>
       </div>
