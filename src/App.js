@@ -55,7 +55,7 @@ function App() {
           <img src={git} alt="git" width="25" />
         </div>
       </div>
-      <header id='header' className="App-header">
+      <header id='header' className="App-headergif">
         <p className='name'>Matthew Walker</p>
       </header>
 
@@ -91,7 +91,7 @@ function App() {
         <a className="riivosPic">
           <img className="picture" src={ucsd} alt="ucsd" />
         </a>
-        <div className="riivosDescription">
+        <div className="ucsdDescription">
           <a className='riivosTitle'>UC San Diego, Jacobs School of Engineering</a>
           <div className= 'riivosContent'>September 2014 - June 2018
             <li>B.S. Computer Science</li>
