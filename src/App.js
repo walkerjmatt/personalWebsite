@@ -7,6 +7,8 @@ import riivos from './riivos.png'
 import ucsd from './ucsd.jpg'
 import link from './in.png'
 import git from './GitHub-Mark-120px-plus.png'
+import walker from './MattWalkerResume.pdf'
+import neu from './logo.png'
 import './App.css';
 
 // function App() {
@@ -44,15 +46,19 @@ function App() {
     <div className="App" onScroll={handleScroll}>
       <div className="NavBar">
         <div className="Resume">
-          <img src={resume} alt="resume" width="25" />
-        </div>
+          <a href={walker} target ="_blank">
+            <img src={resume} alt="resume" width="25" />
+          </a>
+            </div>
         <div className="Resume">
           <a href="https://linkedin.com/in/walkerjmatt" target ="_blank">
             <img src={link} alt="link" width="25" />
           </a>
         </div>
         <div className="Resume">
-          <img src={git} alt="git" width="25" />
+          <a href="https://github.com/walkerjmatt" target ="_blank">
+            <img src={git} alt="git" width="25" />
+            </a>
         </div>
       </div>
       <header id='header' className="App-headergif">
@@ -98,6 +104,20 @@ function App() {
             <li>Area Studies in Economics & Mythology</li>
             <li>Intramural Soccer & Basketball</li>
             <li>Member of Phi Gamma Delta</li>
+          </div>
+        </div>
+      </div>
+      <div className="riivos">
+        <a className="riivosPic">
+          <img className="picture neuPic" src={neu} alt="neu" />
+        </a>
+        <div className="neuDescription">
+          <a className='riivosTitle'>Neufarms</a>
+          <div className= 'riivosContent'>
+            <li>Built in Next.JS & React</li>
+            <li>Designed and developed branding, UX, and UI for the client</li>
+            <li>Worked with Founder to develop a business plan for the company</li>
+            <li>Worked on developing product and distribution channels to sell to investors</li>
           </div>
         </div>
       </div>
