@@ -87,12 +87,12 @@ function App() {
         <div className="riivosDescription">
           <a className='riivosTitle'>Software Engineer (former intern)</a>
           <div className= 'riivosContent'>June 2016 - April 2019
-            <li>Added the ability to organize and stack data on charts, increasing the number of data visualizations by 3x</li>
-            <li>Designed and built release notifications that increased usage rates of new features by 60% in their first week</li>
+            <li>Added the ability to organize and stack data on charts, increasing the number of data visualizations by <b>3x</b></li>
+            <li>Designed and built release notifications that increased usage rates of new features by <b>60%</b> in their first week</li>
             <li>Designed and built a proof of concept to incorporate push notifications into chat</li>
             <li>Implemented mobile compatibility for sidebar navigation</li>
-            <li>Increased code coverage to >80% on automated unit tests</li>
-            <li>Documented on-boarding process to reduce new engineer’s startup time by 5+ hours</li>
+            <li>Increased code coverage from <b>&lt;40%</b> to <b>>80%</b> on automated unit tests</li>
+            <li>Documented on-boarding process to reduce new engineer’s startup time by <b>5+</b> hours</li>
           </div>
         </div>
       </div>
@@ -104,9 +104,9 @@ function App() {
           <a className='riivosTitle'>Computer Science Tutor</a>
           <div className= 'riivosContent'>December - June 2017
             <li>Explained key programming concepts to students</li>
-            <li>Helped multiple students go from below a 2.5 GPA to >3.5 the following quarter</li>
             <li>Provided real-life examples of concepts to deepen understanding</li>
-            <li>Taught students about time management and project prioritization techniques</li>
+            <li>Taught students about time management and how to achieve a proper work-life balance</li>
+            <li>Helped students understand Scrum and incorporate it into their team projects</li>
           </div>
         </div>
       </div>

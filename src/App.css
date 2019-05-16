@@ -107,6 +107,8 @@
   .riivosPic {
   }
   .picture {
+    max-height: 250px;
+    max-width: 250px;
   }
   .neuPic {
       width: 70%;
